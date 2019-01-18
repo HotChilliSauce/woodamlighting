@@ -1,0 +1,258 @@
+@charset "utf-8";
+
+/*서브슬라이더*/
+.sub01Slider{
+    height: 560px;
+    overflow: hidden;
+    position: relative;
+}
+.sub01Slider img{
+    position: absolute;
+    left: 50%;
+    margin-left: -1000px;
+}
+.sliderText{
+    width: 100%;/**/
+    text-align: center;/**/
+    height: 270px;
+    margin-top: -195px;/*subNav 세로값만큼 더 빼준다*/
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+.sliderText h3{
+    height: 44px;
+    background: url(../images/sub/bracket_title.png) no-repeat;
+    background-position: center center;
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;
+    opacity: 0.7;
+    letter-spacing: 15px;
+}
+.sliderText p{
+    color: #fff;
+    font-weight: normal;
+    text-shadow: 1px 2px 2px rgba(0,0,0,0.3);
+}
+.sliderText .textBig{
+    font-weight: 500;
+    font-size: 56px;
+}
+.sliderText p span{
+    color: #f47a20;
+    position: relative;
+}
+.sliderText p span:after{
+    content: "";
+    width: 170px;
+    height: 1px;
+    background: #f47a20;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.subNav{
+    width: 1000px;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    margin-left: -500px;
+    background: #fff;
+    border-bottom: 1px solid #e4e4e4;
+}
+.subNav li{
+    height: 60px;
+    border-right: 1px solid #e4e4e4;
+    float: left;
+}
+.nav1{
+    width: 60px;
+    background: #f47a20 url(../images/sub/ico_home.png) no-repeat;
+    text-indent: -9999px;
+    border: 0;
+}
+.nav2{
+    padding: 0 30px;
+}
+.subNav li a{
+    background: url(../images/sub/ar_snb.png) no-repeat;
+    background-position: right center;
+    height: 100%;
+    color: #000;
+    padding: 0 30px;
+    display: block;
+    position: relative;
+}
+.nav3{
+    width: 160px;
+}
+.nav3 a{
+}
+
+/*우담소개 2차메뉴*/
+.nav3Lnb{
+    width: 160px;
+    margin-left: -1px;
+    background: #fff;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s;
+}
+.nav3:hover .nav3Lnb{
+    max-height: 500px;
+}
+.nav3Lnb li{
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+    border-right: 0;
+}
+.nav3Lnb li a{
+    background: #fff;
+}
+.nav3Lnb li a:hover{
+    background: url(../images/sub/ar_snb.png) no-repeat;
+    background-position: right center;
+}
+
+/*서브컨텐츠*/
+.companyWrap{
+    padding: 50px 0;
+    color: #2c2c2c;
+    position: relative;
+}
+.companyWrap h2{
+    font-size: 35px;
+    font-weight: 300;
+}
+.companyWrap h2:before{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #2c2c2c;
+}
+.companyInfo{
+    height: 650px;
+    background: url(../images/sub/bg_introduction_info.png) no-repeat bottom center;
+    background-size: 100%;
+}
+.info01{
+    padding: 40px 0;
+    font-size: 13px;
+    padding-left: 10px;
+}
+.info01 h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.info01 dl{
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.info01 dl dt{
+    width: 80px;
+    float: left;
+    background: url(../images/sub/infoline.jpg) no-repeat right center;
+    margin-right: 10px;
+}
+.info01 dl dd{
+    float: left;
+    color: #646464;
+}
+.emailBtn{}
+.emailBtn a{
+    width: 108px;
+    height: 25px;
+    display: block;
+    border: 1px solid #e4e4e4;
+    background: url(../images/sub/bg_sendemail.png) no-repeat;
+    color: #6c6c6c;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+}
+.emailBtn a:hover{
+    border: 1px solid #2c2c2c;
+    color: #2c2c2c;
+    background: url(../images/sub/bg_sendemail_on.png) no-repeat;
+    transition:all 0.3s;
+}
+.info02{
+    margin: 80px 0 0 50px;
+}
+.info02 h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.info02 p{
+    color: #949494;
+    font-size: 14px;
+}
+
+/*vision*/
+.vision{
+    padding: 80px 0;
+}
+.title{}
+.title h3{
+    font-weight: 400;
+    display: inline-block;
+    font-size: 20px;
+    color: #2c2c2c;
+}
+.title p{
+    display: inline-block;
+    font-size: 12px;
+    color: #7d7d7d;
+    vertical-align: middle;
+}
+.title p:before{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 14px;
+    background: #7d7d7d;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+.visionCon{
+    padding-top: 30px;
+}
+.visionCon li{
+    width: 166px;
+    float: left;
+    font-size: 14px;
+    text-align: center;
+}
+.visionCon li img{}
+.visionCon li p{}
+
+/*business*/
+.business{}
+.businessCon{
+    margin-top: 30px;
+}
+.businessCon li{
+    width: 235px;
+    float: left;
+    margin-right: 20px;
+    font-size: 12px;
+}
+.businessCon .mr0{
+    margin-right: 0;
+}
+.businessCon li img{
+    width: 100%;
+}
+.businessCon li p{
+    margin: 10px 0 20px 0;
+}

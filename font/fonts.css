@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 100;
+    src: local('NotoSans'),
+        url('NotoSans-Thin.woff2') format('woff2'), 
+        url('NotoSans-Thin.woff') format('woff'),
+        url('NotoSans-Thin.ttf') format('truetype'),
+        url('NotoSans-Thin.otf') format('opentype'),
+        url('NotoSans-Thin.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('NotoSans'),
+        url('NotoSans-Regular.woff2') format('woff2'), 
+        url('NotoSans-Regular.woff') format('woff'),
+        url('NotoSans-Regular.ttf') format('truetype'),
+        url('NotoSans-Regular.otf') format('opentype'),
+        url('NotoSans-Regular.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('NotoSans'),
+        url('NotoSans-Bold.woff2') format('woff2'), 
+        url('NotoSans-Bold.woff') format('woff'),
+        url('NotoSans-Bold.ttf') format('truetype'),
+        url('NotoSans-Bold.otf') format('opentype'),
+        url('NotoSans-Bold.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 900;
+    src: local('NotoSans'),
+        url('NotoSans-Black.woff2') format('woff2'), 
+        url('NotoSans-Black.woff') format('woff'),
+        url('NotoSans-Black.ttf') format('truetype'),
+        url('NotoSans-Black.otf') format('opentype'),
+        url('NotoSans-Black.eot') format('embedded-opentype');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Noto Serif KR';
+    font-style: thin;
+    font-weight: 100;
+    src: local('Noto Serif CJK KR'),
+        url('NotoSerifCJKkr-ExtraLight-subset.woff2') format('woff2'),
+        url('NotoSerifCJKkr-ExtraLight-subset.woff') format('woff');
+}
+@font-face {
+    font-family: 'Noto Serif KR';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Noto Serif CJK KR'),
+        url('NotoSerifCJKkr-Regular-subset.woff2') format('woff2'),
+        url('NotoSerifCJKkr-Regular-subset.woff') format('woff');
+}
+@font-face {
+    font-family: 'Noto Serif KR';
+    font-style: bold;
+    font-weight: 600;
+    src: local('NotoSerifCJKkr-Bold-subset'),
+        url('NotoSerifCJKkr-Bold-subset.woff2') format('woff2'),
+        url('NotoSerifCJKkr-Bold-subset.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'KoPub Dotum';
+  font-weight: 300;
+  font-style: normal;
+  src: url('../fonts/KoPubDotumLight.eot');
+  src: url('../fonts/KoPubDotumLight.woff2') format('woff2'),
+       url('../fonts/KoPubDotumLight.woff') format('woff'),
+       url('../fonts/KoPubDotumLight.ttf') format('truetype'),
+       url('../fonts/KoPubDotumLight.svg#KoPubDotumLight') format('svg'),
+       url('../fonts/KoPubDotumLight.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'KoPub Dotum';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/KoPubDotumMedium.eot');
+  src: url('../fonts/KoPubDotumMedium.woff2') format('woff2'),
+       url('../fonts/KoPubDotumMedium.woff') format('woff'),
+       url('../fonts/KoPubDotumMedium.ttf') format('truetype'),
+       url('../fonts/KoPubDotumMedium.svg#KoPubDotumMedium') format('svg'),
+       url('../fonts/KoPubDotumMedium.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'KoPub Dotum';
+  font-weight: 600;
+  font-style: normal;
+  src: url('../fonts/KoPubDotumBold.eot');
+  src: url('../fonts/KoPubDotumBold.woff2') format('woff2'),
+       url('../fonts/KoPubDotumBold.woff') format('woff'),
+       url('../fonts/KoPubDotumBold.ttf') format('truetype'),
+       url('../fonts/KoPubDotumBold.svg#KoPubDotumBold') format('svg'),
+       url('../fonts/KoPubDotumBold.eot?#iefix') format('embedded-opentype');
